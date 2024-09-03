@@ -1,0 +1,16 @@
+[
+ {
+  "id": 1,
+  "description": "Buy Groceries",
+  "status": "todo",
+  "createdAt": 1725371688919,
+  "updatedAt": 1725371688919
+ },
+ {
+  "id": 2,
+  "description": "Clean House",
+  "status": "todo",
+  "createdAt": 1725371704643,
+  "updatedAt": 1725371704643
+ }
+]
