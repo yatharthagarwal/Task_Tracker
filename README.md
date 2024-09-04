@@ -1,6 +1,6 @@
 # Task_Tracker
 
-Problem Statement: [text](https://roadmap.sh/projects/task-tracker)
+Problem Statement: [Problem](https://roadmap.sh/projects/task-tracker)
 
 1. Clone this repository.
 2. Run `npm i` 
@@ -10,10 +10,10 @@ Problem Statement: [text](https://roadmap.sh/projects/task-tracker)
     Ex: `tcli add-task <description>`
     
 5. List of commands:
-    a. `tcli add <description>`
-    b. `tcli update <id> <description>` 
-    c. `tcli mark-in-progress <id>` 
-    d. `tcli mark-done <id>`
-    e. `tcli list`
-    f. `tcli list <status>`
-    g. `tcli delete <id>`
+    - `tcli add <description>`
+    - `tcli update <id> <description>` 
+    - `tcli mark-in-progress <id>` 
+    - `tcli mark-done <id>`
+    - `tcli list`
+    - `tcli list <status>`
+    - `tcli delete <id>`
