@@ -1,0 +1,15 @@
+{
+  "name": "task_tracker",
+  "version": "1.0.0",
+  "description": "Problem Statement: [text](https://roadmap.sh/projects/task-tracker)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tcli": "./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

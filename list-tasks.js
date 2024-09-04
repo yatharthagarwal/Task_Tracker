@@ -10,6 +10,11 @@ function getAllTasks() {
     return tasks.length === 0 ? [] : JSON.parse(tasks);
 }
 
+function listTasks() {
+    const tasks = getAllTasks();
+    console.log(tasks);
+}
+
 function getNewId() {
     const tasks = getAllTasks();
     const totalTasks = tasks.length;
@@ -19,4 +24,4 @@ function getNewId() {
     return 1;
 }
 
-module.exports = { getNewId, getAllTasks };
+module.exports = { getNewId, listTasks, getAllTasks };
