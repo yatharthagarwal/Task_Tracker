@@ -48,4 +48,6 @@ if (args[2] == 'add') {
         console.error('Usage: delete <id>');
         process.exit(1);
     }
+} else if (args[2] == 'list-task') {
+    listTasks();
 } 
