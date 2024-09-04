@@ -1,37 +1,16 @@
 [
  {
   "id": 1,
-  "description": "Buy Groceries",
+  "description": "Properly wash clothes",
   "status": "todo",
-  "createdAt": 1725371688919,
-  "updatedAt": 1725371688919
+  "createdAt": 1725472982158,
+  "updatedAt": 1725472982158
  },
  {
   "id": 2,
-  "description": "Clean House",
-  "status": "todo",
-  "createdAt": 1725371704643,
-  "updatedAt": 1725371704643
- },
- {
-  "id": 3,
-  "description": "Do shopping",
-  "status": "todo",
-  "createdAt": 1725454508648,
-  "updatedAt": 1725454508648
- },
- {
-  "id": 4,
-  "description": "Play",
-  "status": "todo",
-  "createdAt": 1725456509951,
-  "updatedAt": 1725456509951
- },
- {
-  "id": 5,
-  "description": "Cooking",
-  "status": "todo",
-  "createdAt": 1725456603464,
-  "updatedAt": 1725456603464
+  "description": "Study",
+  "status": "done",
+  "createdAt": 1725472992608,
+  "updatedAt": 1725472992608
  }
 ]

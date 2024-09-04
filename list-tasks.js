@@ -15,6 +15,14 @@ function listTasks() {
     console.log(tasks);
 }
 
+function listTasksByStatus(status) {
+    let tasks = getAllTasks();
+    tasks = tasks.filter(task => task.status === status);
+    if (tasks.length > 0) {
+        console.log(tasks);
+    }
+}
+
 function getNewId() {
     const tasks = getAllTasks();
     const totalTasks = tasks.length;
@@ -24,4 +32,4 @@ function getNewId() {
     return 1;
 }
 
-module.exports = { getNewId, listTasks, getAllTasks };
+module.exports = { getNewId, listTasks, getAllTasks, listTasksByStatus };
